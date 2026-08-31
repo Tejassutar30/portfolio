@@ -1,20 +1,32 @@
 export const skills = {
-  languages: [
+  core: [
     "Java",
-    "JavaScript",
+    "Python",
+    "PyQt5",
     "SQL",
+    "Git",
   ],
 
-  frontend: [
+  webTechnologies: [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express.js",
     "HTML",
     "CSS",
-    "React",
-    "Tailwind CSS",
+  ],
+
+  databases: [
+    "SQLite",
+    "MySQL",
+    "MongoDB",
+    "OracleDB",
   ],
 
   tools: [
-    "Git",
-    "GitHub",
     "VS Code",
+    "GitHub",
+    "Figma",
+    "Qt Designer",
   ],
 };

@@ -1,16 +1,20 @@
 export const profile = {
-  name: "Your Name",
+  name: "Tejas Suresh Sutar",
 
-  title: "Computer Engineer | Aspiring Software Developer",
+  title: "Full Stack Developer | Software Engineer",
 
   summary:
-    "I am aspiring full stack developer, I have completed my B.Tech degree in Computer Science & Technology at D.Y.Patil college of engineering and technology, Kolhapur also I have completed internship at Prime Industries, Belgaum",
+    "Passionate Full Stack Developer with hands-on experience in building IoT-based systems and real-time collaborative platforms. Proficient in Python, Java, JavaScript and modern web technologies. Strong foundation in database design and system architecture with proven ability to develop scalable applications that solve real-world problems.",
 
   email: "sutartejas730@gmail.com",
 
+  phone: "+91 7410530460",
+
+  location: "Kolhapur, India",
+
   github: "https://github.com/Tejassutar30",
 
-  linkedin: "www.linkedin.com/in/tejassutar730",
+  linkedin: "https://www.linkedin.com/in/tejassutar730",
 
-  resume: "/resume.pdf",
+  resume: "/resume.pdf.pdf",
 };
