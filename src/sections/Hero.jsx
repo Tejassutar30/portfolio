@@ -12,25 +12,25 @@ const Hero = () => {
         <div className="max-w-4xl">
           {/* Eyebrow */}
 
-          <p className="mb-5 font-mono text-xs font-medium uppercase tracking-[0.2em] text-[var(--color-accent)]">
+          <p className="mb-5 font-mono text-xs font-medium uppercase tracking-[0.2em] text-(--color-accent)">
             01 / Hello
           </p>
 
           {/* Name */}
 
-          <h1 className="text-5xl font-semibold tracking-tight text-[var(--color-text)] sm:text-6xl lg:text-7xl">
+          <h1 className="text-5xl font-semibold tracking-tight text-(--color-text) sm:text-6xl lg:text-7xl">
             {profile.name}
           </h1>
 
           {/* Professional title */}
 
-          <p className="mt-5 max-w-3xl text-2xl font-medium tracking-tight text-[var(--color-text-muted)] sm:text-3xl lg:text-4xl">
+          <p className="mt-5 max-w-3xl text-2xl font-medium tracking-tight text-(--color-text-muted) sm:text-3xl lg:text-4xl">
             {profile.title}
           </p>
 
           {/* Summary */}
 
-          <p className="mt-8 max-w-2xl text-base leading-7 text-[var(--color-text-muted)] sm:text-lg sm:leading-8">
+          <p className="mt-8 max-w-2xl text-base leading-7 text-(--color-text-muted) sm:text-lg sm:leading-8">
             {profile.summary}
           </p>
 
@@ -54,12 +54,12 @@ const Hero = () => {
 
           {/* Social links */}
 
-          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-[var(--color-text-muted)]">
+          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-(--color-text-muted)">
             <a
               href={profile.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors hover:text-[var(--color-accent)] focus-visible:text-[var(--color-accent)]"
+              className="transition-colors hover:text-(--color-accent) focus-visible:text-(--color-accent)"
             >
               GitHub ↗
             </a>
@@ -68,14 +68,14 @@ const Hero = () => {
               href={profile.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors hover:text-[var(--color-accent)] focus-visible:text-[var(--color-accent)]"
+              className="transition-colors hover:text-(--color-accent) focus-visible:text-(--color-accent)"
             >
               LinkedIn ↗
             </a>
 
             <a
               href={`mailto:${profile.email}`}
-              className="transition-colors hover:text-[var(--color-accent)] focus-visible:text-[var(--color-accent)]"
+              className="transition-colors hover:text-(--color-accent) focus-visible:text-(--color-accent)"
             >
               Email ↗
             </a>

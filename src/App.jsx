@@ -5,7 +5,7 @@ import Skills from "./sections/Skills";
 
 function App() {
   return (
-    <div className="min-h-screen bg-[var(--color-background)]">
+    <div className="min-h-screen bg-(--color-background)">
       <Navbar />
 
       <main>

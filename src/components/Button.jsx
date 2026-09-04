@@ -7,14 +7,14 @@ const Button = ({
   ...props
 }) => {
   const baseStyles =
-    "inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-sm font-medium transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-background)]";
+    "inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-sm font-medium transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-(--color-background)";
 
   const variants = {
     primary:
-      "bg-[var(--color-accent)] text-white hover:bg-[var(--color-accent-hover)]",
+      "bg-(--color-accent) text-white hover:bg-(--color-accent-hover)",
 
     secondary:
-      "border border-[var(--color-border)] bg-[var(--color-surface)] text-[var(--color-text)] hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]",
+      "border border-(--color-border) bg-(--color-surface) text-(--color-text) hover:border-(--color-accent) hover:text-(--color-accent)",
   };
 
   const styles = `${baseStyles} ${variants[variant]} ${className}`;

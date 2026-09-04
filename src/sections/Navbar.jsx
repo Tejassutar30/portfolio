@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-background)]/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-(--color-border) bg-(--color-background)/90 backdrop-blur">
       <Container>
         <nav
           className="flex min-h-16 items-center justify-between"
@@ -30,7 +30,7 @@ const Navbar = () => {
           <a
             href="#top"
             onClick={closeMenu}
-            className="font-mono text-sm font-semibold tracking-tight text-[var(--color-text)] transition-colors hover:text-[var(--color-accent)] focus-visible:text-[var(--color-accent)]"
+            className="font-mono text-sm font-semibold tracking-tight text-(--color-text) transition-colors hover:text-(--color-accent) focus-visible:text-(--color-accent)"
           >
             {profile.name}
           </a>
@@ -42,7 +42,7 @@ const Navbar = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-sm text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-text)] focus-visible:text-[var(--color-accent)]"
+                className="text-sm text-(--color-text-muted) transition-colors hover:text-(--color-text) focus-visible:text-(--color-accent)"
               >
                 {item.label}
               </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
             aria-expanded={isOpen}
             aria-controls="mobile-navigation"
             aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-[var(--color-border)] text-[var(--color-text)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] md:hidden"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-(--color-border) text-(--color-text) transition-colors hover:border-(--color-accent) hover:text-(--color-accent) md:hidden"
           >
             <span className="font-mono text-lg">
               {isOpen ? "×" : "☰"}
@@ -79,7 +79,7 @@ const Navbar = () => {
         {isOpen && (
           <div
             id="mobile-navigation"
-            className="border-t border-[var(--color-border)] py-4 md:hidden"
+            className="border-t border-(--color-border) py-4 md:hidden"
           >
             <div className="flex flex-col gap-1">
               {navItems.map((item) => (
@@ -87,7 +87,7 @@ const Navbar = () => {
                   key={item.href}
                   href={item.href}
                   onClick={closeMenu}
-                  className="rounded-md px-3 py-3 text-sm text-[var(--color-text-muted)] transition-colors hover:bg-[var(--color-surface)] hover:text-[var(--color-text)] focus-visible:text-[var(--color-accent)]"
+                  className="rounded-md px-3 py-3 text-sm text-(--color-text-muted) transition-colors hover:bg-(--color-surface) hover:text-(--color-text) focus-visible:text-(--color-accent)"
                 >
                   {item.label}
                 </a>

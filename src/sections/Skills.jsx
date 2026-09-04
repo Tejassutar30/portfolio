@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="border-t border-[var(--color-border)] py-20 sm:py-24 lg:py-32"
+      className="border-t border-(--color-border) py-20 sm:py-24 lg:py-32"
     >
       <Container>
         <SectionHeading
@@ -40,9 +40,9 @@ const Skills = () => {
           {skillCategories.map((category) => (
             <div
               key={category.key}
-              className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-6"
+              className="rounded-lg border border-(--color-border) bg-(--color-surface) p-6"
             >
-              <h3 className="text-base font-semibold text-[var(--color-text)]">
+              <h3 className="text-base font-semibold text-(--color-text)"> 
                 {category.label}
               </h3>
 
