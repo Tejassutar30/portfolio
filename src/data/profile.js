@@ -6,6 +6,9 @@ export const profile = {
   summary:
     "Passionate Full Stack Developer with hands-on experience in building IoT-based systems and real-time collaborative platforms. Proficient in Python, Java, JavaScript and modern web technologies. Strong foundation in database design and system architecture with proven ability to develop scalable applications that solve real-world problems.",
 
+  about:
+    "I am a computer engineering graduate interested in software development and building practical technology solutions. I enjoy learning new technologies, solving problems, and turning ideas into working applications.",
+
   email: "sutartejas730@gmail.com",
 
   phone: "+91 7410530460",
