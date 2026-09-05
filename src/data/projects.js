@@ -80,4 +80,82 @@ export const projects = [
 
     featured: true,
   },
+  {
+    id: "project-3",
+
+    title: "Machine Maintenance Monitor",
+
+    summary:
+      "An IoT-based desktop application for monitoring and tracking machine maintenance in industrial environments, replacing manual paper-based processes",
+
+    problem:
+      "Industries rely on manual, paper-based maintenance logging which is error-prone, inefficient, and lacks traceability. This leads to unplanned downtime, maintenance oversights, and poor record-keeping of equipment maintenance history.",
+
+    description:
+      "Designed and developed an IoT-based machine maintenance monitoring system that digitizes manual shop-floor maintenance processes. Built a Python + PyQt5 desktop application communicating with hardware controllers over TCP to fetch real-time maintenance data. Implemented comprehensive SQLite database for configurations, employees, and maintenance logs with automated report generation.",
+
+    technologies: [
+      "Python",
+      "PyQt5",
+      "SQLite",
+      "TCP",
+      "Qt Designer",
+    ],
+
+    features: [
+      "Real-time machine status monitoring",
+      "Hardware communication via TCP protocol",
+      "Machine and employee master management",
+      "Maintenance tracking and logging",
+      "Historical maintenance records",
+      "Automated report generation",
+      "Dashboard for system overview",
+      "Admin controls and user management",
+    ],
+
+    githubUrl: "https://github.com/Tejassutar30",
+
+    liveUrl: "",
+
+    featured: true,
+  },
+  {
+    id: "project-4",
+
+    title: "Machine Maintenance Monitor",
+
+    summary:
+      "An IoT-based desktop application for monitoring and tracking machine maintenance in industrial environments, replacing manual paper-based processes",
+
+    problem:
+      "Industries rely on manual, paper-based maintenance logging which is error-prone, inefficient, and lacks traceability. This leads to unplanned downtime, maintenance oversights, and poor record-keeping of equipment maintenance history.",
+
+    description:
+      "Designed and developed an IoT-based machine maintenance monitoring system that digitizes manual shop-floor maintenance processes. Built a Python + PyQt5 desktop application communicating with hardware controllers over TCP to fetch real-time maintenance data. Implemented comprehensive SQLite database for configurations, employees, and maintenance logs with automated report generation.",
+
+    technologies: [
+      "Python",
+      "PyQt5",
+      "SQLite",
+      "TCP",
+      "Qt Designer",
+    ],
+
+    features: [
+      "Real-time machine status monitoring",
+      "Hardware communication via TCP protocol",
+      "Machine and employee master management",
+      "Maintenance tracking and logging",
+      "Historical maintenance records",
+      "Automated report generation",
+      "Dashboard for system overview",
+      "Admin controls and user management",
+    ],
+
+    githubUrl: "https://github.com/Tejassutar30",
+
+    liveUrl: "",
+
+    featured: true,
+  },
 ];
